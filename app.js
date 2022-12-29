@@ -6,7 +6,7 @@ const port = process.env.PORT;
 
 
 const app = express()
-app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
@@ -17,9 +17,13 @@ app.post("/", (req, res) => {
     let fName = req.body.firstName;
     let lName = req.body.lastName;
     let email = req.body.email;
+    let username = req.body.username;
+    console.log(fName, lName, email, username);
+    res.redirect("/success");
+})
 
-console.log( fName, lName, email);
-
+app.get("/success", (req, res) => {
+    res.sendFile(__dirname + "/success.html")
 })
 
 app.listen(port, () => {
