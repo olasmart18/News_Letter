@@ -16,11 +16,6 @@ form{
     background: rgb(187, 186, 186);
 }
 
-.field{
-    /* border: 1px solid gray; */
-   
-}
-
 .field input{
     display: flex;
     outline: lightblue;
