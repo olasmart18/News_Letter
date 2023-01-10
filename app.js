@@ -27,8 +27,8 @@ app.post("/", (req, res) => {
                     email_address: email,
                     status: "subscribed",
                     merge_fields: {
-                        FNAME: firstName,
-                        LNAME: lastName
+                        FNAME: fName,
+                        LNAME: lName
                     }
                 }
             ]
@@ -40,8 +40,8 @@ app.post("/", (req, res) => {
 
         const Options = {
             method: "POST",
-            auth: process.env.API_key - Auth
-        }
+            auth: process.env.API_key_Auth
+        };
 
         const request = https.request(url, Options, (resp) => {
             resp.on("data", (data) => {
