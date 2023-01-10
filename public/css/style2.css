@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bdy{
+    background: gray;
+    color: aliceblue;
+    border: 1px solid gray;
+}
+
+h1, p{
+    padding-left: 40px;
+}
+
+.btn-wn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: yellow;
+    border-radius: 3px;
+    margin-left: 40px;
+    outline: none;
+    border: 1px solid yellowgreen;
+}
