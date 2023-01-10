@@ -1,5 +1,5 @@
 {
-  "name": "mailchimp",
+  "name": "News_Letter",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/olasmart18/mailchimp.git"
+    "url": "git+https://github.com/olasmart18/New_Letter.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/olasmart18/mailchimp/issues"
+    "url": "https://github.com/olasmart18/News_Letter/issues"
   },
-  "homepage": "https://github.com/olasmart18/mailchimp#readme",
+  "homepage": "https://github.com/olasmart18/News_Letter#readme",
   "dependencies": {
     "body-parser": "^1.20.1",
     "dotenv": "^16.0.3",
